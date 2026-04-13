@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum Vitae - Programação Web Front-End UTFPR">
+    <title>Curriculum Vitae - William Yamaguchi</title>
+
+    <!-- ── CSS externo (requisito da atividade) ── -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== CABEÇALHO COM FOTO ===== -->
+    <header>
+        <figure>
+            <img class="img-perfil" src="figs/foto.png" alt="Foto de perfil de William Yamaguchi" width="140" height="140">
+            <figcaption>Foto de Perfil</figcaption>
+        </figure>
+
+        <h1>William Yamaguchi</h1>
+        <!-- classe .subtitulo-header — seletor por classe -->
+        <p class="subtitulo-header">Estudante de Engenharia de Computação | UTFPR</p>
+
+        <p>
+            <a href="mailto:william.yamaguchi2@gmail.com">william.yamaguchi2@gmail.com</a> |
+            <a href="https://linkedin.com/in/william-yamaguchi-ba70a7242" target="_blank">linkedin.com/in/WilliamYamaguchi</a> |
+            Cambará, PR |
+            <a href="tel:+5543920010238">(43) 92001-0238</a>
+        </p>
+    </header>
+
+    <!-- ===== NAVEGAÇÃO ===== -->
+    <nav>
+        <a href="#sobre">Sobre</a> |
+        <a href="#experiencia">Experiência</a> |
+        <a href="#educacao">Educação</a> |
+        <a href="#habilidades">Habilidades</a> |
+        <a href="#ods">ODS</a> |
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <!-- ===== CONTEÚDO PRINCIPAL ===== -->
+
+    <!-- Sobre — id="sobre" (seletor por ID) -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Estudante de <span class="destaque">Engenharia de Computação</span> na UTFPR,
+           apaixonado por tecnologia, automação e desenvolvimento de software.</p>
+    </section>
+
+    <!-- Habilidades — id="habilidades" (seletor por ID) -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML5 – 80%</li>
+            <li>CSS3 – 75%</li>
+            <li>JavaScript – 60%</li>
+            <li>Python – 55%</li>
+            <li>Git – 65%</li>
+        </ul>
+    </section>
+
+    <!-- Idiomas -->
+    <section>
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Português – Nativo</li>
+            <li>Inglês – Intermediário</li>
+            <li>Espanhol – Básico</li>
+        </ul>
+    </section>
+
+    <!-- Experiência — id="experiencia" (seletor por ID) -->
+    <section id="experiencia">
+        <h2>Experiência</h2>
+        <h3>Estagiário de Engenharia</h3>
+        <!-- classe .cargo-empresa — seletor por classe -->
+        <p class="cargo-empresa">WEG | Jan/2026 – Presente</p>
+        <p>Desenvolvimento de automações e manutenção de sistemas internos da empresa.</p>
+    </section>
+
+    <!-- Educação — id="educacao" (seletor por ID) -->
+    <section id="educacao">
+        <h2>Educação</h2>
+        <h3>Bacharelado em Engenharia de Computação</h3>
+        <p class="cargo-empresa">UTFPR – Universidade Tecnológica Federal do Paraná | 2023 – 2027 (em andamento)</p>
+        <p>Cursando o <span class="destaque">7º período</span>.</p>
+    </section>
+
+    <!-- ODS — id="ods" (seletor por ID) -->
+    <section id="ods">
+        <h2>ODS que Pretendo Contribuir</h2>
+        <figure>
+            <img class="img-ods" src="figs/ods.png" alt="17 Objetivos de Desenvolvimento Sustentável da ONU">
+            <figcaption>Fig. 1 – Os 17 Objetivos de Desenvolvimento Sustentável (ONU, 2015)</figcaption>
+        </figure>
+        <p>Como futuro engenheiro de Computação, acredito que a tecnologia pode ser uma poderosa ferramenta
+            para a promoção dos Objetivos de Desenvolvimento Sustentável. Pretendo contribuir especialmente
+            com os seguintes ODS:</p>
+        <ul>
+            <li>ODS 4 – Educação de Qualidade</li>
+            <li>ODS 5 – Igualdade de Gênero</li>
+            <li>ODS 9 – Indústria e Inovação</li>
+            <li>ODS 10 – Redução das Desigualdades</li>
+            <li>ODS 17 – Parcerias e Meios de Implementação</li>
+        </ul>
+        <!-- link com target="_blank" — seletor por atributo a[target="_blank"] -->
+        <p>Acesse o site oficial: <a href="https://brasil.un.org/pt-br/sdgs" target="_blank">brasil.un.org/pt-br/sdgs</a></p>
+    </section>
+
+    <!-- ===== RODAPÉ ===== -->
+    <footer>
+        <p>&copy; 2026 – William Yamaguchi | <a href="https://www.utfpr.edu.br" target="_blank">UTFPR</a></p>
+    </footer>
+
+</body>
+
+</html>

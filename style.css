@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f0f4f8;
+    color: #1a202c;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 860px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #1a365d;
+    color: #e2e8f0;
+    text-align: center;
+    padding: 36px 20px 28px;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 12px 0 6px;
+}
+
+h2 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #2b4a7e;
+    border-bottom: 2px solid #2b4a7e;
+    padding-bottom: 4px;
+    margin-bottom: 14px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 2px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 22px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+figcaption {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #a0aec0;
+    margin-top: 4px;
+}
+
+footer {
+    background-color: #1a365d;
+    color: #a0aec0;
+    text-align: center;
+    padding: 16px;
+    border-radius: 0 0 10px 10px;
+    font-size: 0.88rem;
+}
+
+nav {
+    background-color: #2b4a7e;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 24px 28px;
+    border-left: 4px solid #2b4a7e;
+    margin-bottom: 6px;
+}
+
+.img-perfil {
+    border-radius: 50%;
+    border: 3px solid #4a90d9;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-ods {
+    display: block;
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    margin: 12px auto;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.destaque {
+    font-weight: 700;
+    color: #2b4a7e;
+}
+
+.subtitulo-header {
+    font-style: italic;
+    color: #90cdf4;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.cargo-empresa {
+    font-size: 0.92rem;
+    color: #4a5568;
+    font-style: italic;
+}
+
+
+
+#sobre {
+    border-left-color: #38a169;
+}
+
+#habilidades {
+    border-left-color: #d69e2e;
+}
+
+#experiencia {
+    border-left-color: #e53e3e;
+}
+
+#educacao {
+    border-left-color: #805ad5;
+}
+
+#ods {
+    border-left-color: #319795;
+}
+
+
+a[target="_blank"] {
+    color: #4a90d9;
+    font-weight: 600;
+}
+
+
+a[href^="tel"] {
+    color: #38a169;
+    font-weight: 600;
+}
+
+
+a[href^="mailto"] {
+    color: #d69e2e;
+    font-weight: 600;
+}
+
+
+
+
+a:hover {
+    color: #f6ad55;
+    text-decoration: underline;
+    transition: color 0.25s ease;
+}
+
+nav a:hover {
+    color: #fbd38d;
+    background-color: #1a365d;
+    border-radius: 4px;
+}
+
+
+nav a {
+    color: #e2e8f0;
+    text-decoration: none;
+    padding: 4px 10px;
+    transition: color 0.25s ease, background-color 0.25s ease;
+}
+
+footer a {
+    color: #90cdf4;
+}
+
+footer a:hover {
+    color: #f6ad55;
+}
+
+
+li:first-child {
+    font-weight: 700;
+    color: #2b4a7e;
+}
